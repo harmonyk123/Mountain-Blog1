@@ -1,0 +1,120 @@
+*{
+    box-sizing:border-box;
+}
+
+
+body{
+    margin-top:20px;
+    background-color: rgb(226, 236, 255);
+    font-family:'Times New Roman', Times, serif;
+    margin-bottom: 50px;
+
+}
+/**/
+.container{
+    width:900px;
+    margin-left: auto;
+    margin-right:auto;
+    background-color: #fff;
+    margin-bottom:10px;   
+}
+
+.header-container{
+    position:relative;
+
+}
+
+.header-img{
+    height: 100%;
+    width: 900px;
+    margin-left: auto;
+    margin-right:auto;
+   
+}
+
+.header-area{
+    background: rgba(199, 199, 199, 0.65);
+    position: absolute;
+    left: 50px;
+    bottom:50px;
+    padding:20px;     
+}
+header{
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.header-area > p{
+    font-size: 20px ;
+    margin-top: 6px;
+    font-weight: 600;
+    
+}
+
+.content-area{
+    margin-top:10px;
+    margin-left:110px;
+    margin-right:110px;
+    margin-bottom: 50px;
+    text-align: justify;
+    
+    border: 5px solid rgb(255, 255, 255); /*if I remove this it collapses*/
+    
+   
+}
+
+figure{   /*figure block*/
+    float: right;
+    width: 300px;
+    
+}
+
+figure > img{
+    width:300px;
+    height:auto;
+    float: right;
+    
+    margin-left:15px;
+}
+
+
+figcaption {
+    font-size: 14px;
+    float: left;
+}
+
+.links{
+    
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.links>ul{
+  
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap:5px;
+    padding-left: 0px;
+}
+li{
+    border: 3px;  
+    background-color: #4e8098;
+    padding:5px 10px;
+    align-content: flex-start;
+    color:white;
+   
+}
+
+footer{
+    
+    text-align: center;
+    margin-top:10px;
+    margin-bottom: 20px;
+}
+
+
+
